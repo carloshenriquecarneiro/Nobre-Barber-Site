@@ -767,6 +767,10 @@ label {
 
 @media(max-width:769px) {
    
+    body {
+        overflow-x: hidden;
+    }
+
     .navegacao {
         display: none;
     }
@@ -790,6 +794,7 @@ label {
 
     .container-sobre {
         height: 900px;
+        width: 100%;
     }
 
     .container-sobre img {
